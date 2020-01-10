@@ -1,0 +1,70 @@
+/* General css */
+*{
+margin: 0;
+padding: 0;
+}
+body {
+font-family: New Time Romans san-serif;
+overflow-y: scroll;
+overflow-x: hidden; 
+}
+
+p{
+font-size: 20px;
+}
+/* ======= header ======= */
+ .header {
+ background-image: url("images/contact-us2.jpg");
+ background-position: 50%  50%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ -webkit-background-size: cover; 
+ height: 600px;
+ }
+
+/* ======= Navigation ======= */
+.navbar {
+background: transparent;
+z-index: 110;
+transition: all 1s;
+-moz-transition: all 1s;
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+}
+.navbar .navbar-nav > li > a {
+font-color: #FOF8FF;
+font-size: 20px;
+font-family: "relway", san-serif;
+transition: all 1s;
+-moz-transition: all 1s;
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+
+}
+.navbar .navbar-nav > li > a:hover {
+color: #129cf3;
+}
+.navbar .navbar-nav > li > a:focus {
+color: #B5B5B5;
+}
+.title-image {
+	padding-right: 50px;
+}
+.btn {
+	padding-left: 100px;
+}
+.order-msg {
+	padding-top: 30px;
+}
+
+/* google font codes */
+font-family: 'Alegreya', serif;
+font-family: 'Lora', serif;
+font-family: 'Cardo', serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Tangerine', cursive; // for header text
